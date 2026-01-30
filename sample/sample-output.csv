@@ -1,0 +1,149 @@
+﻿Project,RuleId,RuleTitle,IncidentId,Location,LocationKind,Line,Column,Snippet,Severity,Effort,Labels
+eShopLegacy.Common\eShopLegacy.Common.csproj,Runtime.0002,Upgrade to newer target framework to get better cloud experience,2a9947cb-782e-457e-a06e-fffad381b6b1,eShopLegacy.Common\eShopLegacy.Common.csproj,File,,,"Target framework: .NETFramework,Version=v4.6.1",optional,3,
+eShopLegacy.Utilities\eShopLegacy.Utilities.csproj,Runtime.0002,Upgrade to newer target framework to get better cloud experience,6a50b951-b7f3-4b0f-8a44-24b80d657a7c,eShopLegacy.Utilities\eShopLegacy.Utilities.csproj,File,,,"Target framework: .NETFramework,Version=v4.6.1",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Scale.0001,Static content detected,cfce78ca-39bd-4377-ad29-607e4c6bfb2b,eShopLegacyMVC\eShopLegacyMVC.csproj,File,,,"Found 67 files matching the rule:
+
+Content\base.css
+Content\bootstrap-grid.css
+Content\bootstrap-grid.min.css
+Content\bootstrap-reboot.css
+Content\bootstrap-reboot.min.css
+Content\bootstrap.css
+Content\bootstrap.min.css
+Content\custom.css
+Content\site.css
+favicon.ico
+fonts\Montserrat-Bold.eot
+fonts\Montserrat-Bold.svg
+fonts\Montserrat-Bold.ttf
+fonts\Montserrat-Bold.woff
+fonts\Montserrat-Bold.woff2
+fonts\Montserrat-Regular.eot
+fonts\Montserrat-Regular.svg
+fonts\Montserrat-Regular.ttf
+fonts\Montserrat-Regular.woff
+fonts\Montserrat-Regular.woff2
+Images\brand_dark.png
+Images\brand.png
+Images\main_banner.png
+Images\main_footer_text.png
+Pics\1.png
+Pics\10.png
+Pics\11.png
+Pics\12.png
+Pics\2.png
+Pics\3.png
+Pics\4.png
+Pics\5.png
+Pics\6.png
+Pics\7.png
+Pics\8.png
+Pics\9.png
+Pics\dummy.png
+Scripts\bootstrap.bundle.js
+Scripts\bootstrap.bundle.min.js
+Scripts\bootstrap.js
+Scripts\bootstrap.min.js
+Scripts\esm\popper-utils.js
+Scripts\esm\popper-utils.min.js
+Scripts\esm\popper.js
+Scripts\esm\popper.min.js
+Scripts\jquery-3.3.1.js
+Scripts\jquery-3.3.1.min.js
+Scripts\jquery-3.3.1.slim.js
+Scripts\jquery-3.3.1.slim.min.js
+Scripts\jquery.validate.js
+Scripts\jquery.validate.min.js
+Scripts\jquery.validate.unobtrusive.js
+Scripts\jquery.validate.unobtrusive.min.js
+Scripts\modernizr-2.6.2.js
+Scripts\modernizr-2.8.3.js
+Scripts\popper-utils.js
+Scripts\popper-utils.min.js
+Scripts\popper.js
+Scripts\popper.min.js
+Scripts\respond.js
+Scripts\respond.matchmedia.addListener.js
+Scripts\respond.matchmedia.addListener.min.js
+Scripts\respond.min.js
+Scripts\umd\popper-utils.js
+Scripts\umd\popper-utils.min.js
+Scripts\umd\popper.js
+Scripts\umd\popper.min.js
+",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0007,Local OS environment access detected,f1bd484e-3fb7-4aae-98f8-2a7684683016,eShopLegacyMVC\Global.asax.cs,File,42,57,System.Environment.MachineName,potential,1,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,58efc375-d1fa-474e-988b-2ed0f8865019,eShopLegacyMVC\Global.asax.cs,File,22,32,log4net.ILog,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,e2e65863-f981-49a3-807b-4347caa4afd7,eShopLegacyMVC\Global.asax.cs,File,49,12,log4net.LogicalThreadContext,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,b9c6dca0-06bc-4c01-966f-652b0faa856d,eShopLegacyMVC\Global.asax.cs,File,51,12,log4net.LogicalThreadContext,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,b4034635-9236-42fb-ba95-289ad07c25c6,eShopLegacyMVC\Global.asax.cs,File,22,44,log4net.LogManager,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0004,Logging to local or network paths detected,11b4881e-d6c8-4811-9021-d0a7fe81a4d3,eShopLegacyMVC\log4Net.xml,File,,,"<appender name=""file"" />",mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Connection.0001,Connection string is detected,da21ca0b-cccb-4d12-b5c4-2932772b7ab8,eShopLegacyMVC\Web.config,File,,,"<add name=""CatalogDBContext"" />",potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Connection.0001,Connection string is detected,430cfbb7-c2cd-43ff-9f52-00800ddd386f,eShopLegacyMVC\Web.config,File,,,"<add name=""IdentityDBContext"" />",potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Database.0003,System.Data.SqlClient dependency detected,835ac078-a24a-447c-b79b-3633ba477838,eShopLegacyMVC\Web.config,File,,,"<add name=""CatalogDBContext"" />",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Database.0003,System.Data.SqlClient dependency detected,8a2d2251-c94c-43d4-8fa6-217d4068a74c,eShopLegacyMVC\Web.config,File,,,"<add name=""IdentityDBContext"" />",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,2d29aefa-07b3-4e96-a2b5-985733270de4,eShopLegacyMVC\Web.config,File,,,"<add name=""CatalogDBContext"" />",mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,22a9145c-6f2f-40ff-b4bd-c3d200f624cc,eShopLegacyMVC\Web.config,File,,,"<add name=""IdentityDBContext"" />",mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Scale.0002,Session state stored in-proc or in local process is detected,51087c32-d7c7-422d-a975-af8568667a04,eShopLegacyMVC\Web.config,File,,,<sessionState />,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0002,Connection strings without configuration builders detected,c43cfd47-73cb-4fde-b37d-ec82f52bca71,eShopLegacyMVC\Web.config,File,,,<appSettings />,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0002,Connection strings without configuration builders detected,c78a152f-87fc-4bbb-92e3-a5eed12b1735,eShopLegacyMVC\Web.config,File,,,<connectionStrings />,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,dae6946b-74a1-4f8b-89c4-b8eae0436cd2,eShopLegacyMVC\Web.config,File,,,"<add key=""files:ServiceAccountPassword"" />",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,50f716b4-a421-45d5-b343-5504f11af5ad,eShopLegacyMVC\Controllers\CatalogController.cs,File,13,32,log4net.ILog,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,426f4cbb-4ef2-4516-af81-312728dba857,eShopLegacyMVC\Controllers\CatalogController.cs,File,13,44,log4net.LogManager,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Queue.0003,MSMQ usage is detected,6eed2d2e-331e-451a-aa79-f1914adf1011,eShopLegacyMVC\Controllers\CatalogController.cs,File,80,19,System.Messaging.MessageQueue,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Queue.0003,MSMQ usage is detected,78da8efb-37b7-4549-b7bc-f704a3445adf,eShopLegacyMVC\Controllers\CatalogController.cs,File,80,35,System.Messaging.MessageQueue,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Queue.0003,MSMQ usage is detected,f29fa0fa-0868-4f2b-b832-736f6750be5b,eShopLegacyMVC\Controllers\CatalogController.cs,File,82,16,System.Messaging.Message,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Queue.0003,MSMQ usage is detected,3305c4dd-cc39-42ec-9a33-235e5dd159f1,eShopLegacyMVC\Controllers\CatalogController.cs,File,82,34,System.Messaging.Message,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Queue.0003,MSMQ usage is detected,550c89a1-3256-4b38-9a87-f2c86e8e5bdd,eShopLegacyMVC\Controllers\CatalogController.cs,File,84,36,System.Messaging.XmlMessageFormatter,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,fe626593-d30f-49da-b807-bd426a6e01cc,eShopLegacyMVC\Controllers\PicController.cs,File,43,39,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,c2704528-2623-467b-9a97-ffaf5d90387a,eShopLegacyMVC\Controllers\PicController.cs,File,10,32,log4net.ILog,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,963dc6e1-8ce4-4f55-aea7-d0c27ed84675,eShopLegacyMVC\Controllers\PicController.cs,File,10,44,log4net.LogManager,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,347f8623-dddb-4943-b9ab-835d2923e6ef,eShopLegacyMVC\Models\AccountViewModels.cs,File,34,24,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,1162e094-6fd6-43a1-ac90-3f4ca8bc677a,eShopLegacyMVC\Models\AccountViewModels.cs,File,13,24,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,b10dfeec-d9ca-4c01-86e6-bb16ad626b82,eShopLegacyMVC\Models\AccountViewModels.cs,File,30,24,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,47015477-15df-4e18-a5a8-ecb0ce879a94,eShopLegacyMVC\Models\AccountViewModels.cs,File,35,17,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,2da43e13-b164-4604-9b1b-6f83cfab7b8f,eShopLegacyMVC\Models\AccountViewModels.cs,File,35,44,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,HTTP.0001,Access to external resources via HTTP is detected,fb2d3d49-91fd-4812-b468-0071c1ba28a3,eShopLegacyMVC\Models\IdentityModels.cs,File,28,30,System.Net.HttpWebRequest,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,HTTP.0001,Access to external resources via HTTP is detected,3e0963a7-c42a-4e89-8138-df870e1a85f8,eShopLegacyMVC\Models\IdentityModels.cs,File,28,60,System.Net.HttpWebRequest,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0006,Hardcoded URLs detected,c08259bf-30b3-496b-bdb8-da5a5e4b9c41,eShopLegacyMVC\Models\IdentityModels.cs,File,27,44,http://,potential,1,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,0ce64e7f-ee9b-4176-914d-56d756c9ba48,eShopLegacyMVC\Services\FileService.cs,File,66,46,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,c39b3940-3d58-4b68-a7a9-bc432042c5bc,eShopLegacyMVC\Services\FileService.cs,File,41,46,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,fa5d2d5f-c756-4bf3-b13a-57b66c75f6c7,eShopLegacyMVC\Services\FileService.cs,File,53,46,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,f5615548-f553-4f6e-897d-427b4cb0b728,eShopLegacyMVC\Services\FileService.cs,File,38,18,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,de7d69a1-c305-4c7d-8f54-4bc9a641b727,eShopLegacyMVC\Services\FileService.cs,File,50,18,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Identity.0002,Windows authentication detected,ac504f27-9aea-406c-923b-8ce9483c2df5,eShopLegacyMVC\Services\FileService.cs,File,63,18,System.Security.Principal.WindowsIdentity,mandatory,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,10c47de5-c183-4be0-a7b2-a787615e93f2,eShopLegacyMVC\Services\FileService.cs,File,43,23,System.IO.Directory,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,516f1308-ba98-4719-8d11-2d195719f85c,eShopLegacyMVC\Services\FileService.cs,File,56,23,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,2ce165ff-4a5c-46ad-a834-9cdf209e3e3f,eShopLegacyMVC\Services\FileService.cs,File,75,36,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0009,Native API calls detected,feed136c-da28-4aee-a8c1-256a9c55256b,eShopLegacyMVC\Services\FileService.cs,File,18,8,LogonUser (advapi32.dll),optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0009,Native API calls detected,70fff119-1fd5-435e-ad95-04dd8756bbbb,eShopLegacyMVC\Services\FileService.cs,File,86,17,LogonUser,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Security.0003,Hardcoded sensitive data detected,788ebf56-24bb-4d9d-ac82-6714880478cf,eShopLegacyMVC\Services\FileService.cs,File,32,74,password,optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,HTTP.0001,Access to external resources via HTTP is detected,db6a7125-0655-4e35-923a-383f450d8466,eShopLegacyMVC\Services\WeatherService.cs,File,28,36,System.Net.WebClient,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0006,Hardcoded URLs detected,b7379a44-0b60-43c4-91ec-35a386470648,eShopLegacyMVC\Services\WeatherService.cs,File,11,43,http://,potential,1,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,87b7d671-90a1-4382-8331-bcc1c1ce0087,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,335,47,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,0f011616-34c5-4246-8fe2-612933375000,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,345,12,System.IO.DirectoryInfo,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,03422d17-1f09-42e7-b38f-287c8718f542,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,345,44,System.IO.DirectoryInfo,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,57990c7b-0ec3-416d-8364-c9c966497b24,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,346,21,System.IO.FileInfo,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,ec36b17d-6e0d-4d5d-93ed-a9f01a2f4eb0,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,135,17,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,9fc10033-3037-4139-b493-a8c1d19ef58f,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,171,17,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,ad98d4c6-f387-4655-b497-b713d3dbc0de,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,99,17,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,4a700e1c-cf06-4bd5-9911-15038efbbcc6,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,145,19,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,7e249292-3719-43c7-b906-f9f4efe9d695,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,184,19,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,80f7d24a-8a3d-4a1a-ae00-532d5c80baae,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,109,19,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,bb4f48eb-56b5-40c4-99ba-b304a750ee63,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,299,34,System.IO.File,potential,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0003,Local or network IO operations detected,f6b2da2c-8f8f-4f39-aaad-aa7494f84a98,eShopLegacyMVC\Models\Infrastructure\CatalogDBInitializer.cs,File,352,12,System.IO.Compression.ZipFile,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,5fe9b13e-5753-4299-8f49-fa4dabc28744,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,90,12,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,daed06ef-2de6-42c2-aca7-15542417e8af,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,119,20,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,0382cbc7-70f2-47e6-9582-7b4038979184,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,116,20,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,6be0e2a2-6298-4913-afda-c8ae6e1ba065,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,96,16,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,5be16fcf-373e-4308-b6b5-036b82814f9f,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,118,20,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,a0a7d973-9005-4fe4-872a-b2dbc5458333,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,115,20,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,e8a7fd5b-5877-43df-97f3-1350fdc5265c,eShopLegacyMVC.Test\Controllers\PicControllerTest.cs,File,86,42,System.IO.Path.GetTempPath,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,202ed27b-96b5-49b4-955f-dda8c3e19183,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,22,41,System.IO.Path.GetTempPath,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,eaa9c9f3-0eb0-4a96-9d37-f430e445904e,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,23,12,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,103e2646-109a-4e34-bb01-6b3a07820bbb,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,54,16,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,7abb21c9-b0e3-45f8-8eab-ea56f7d5f9e8,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,52,20,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,0cc099d8-04b6-4a9a-956e-afb0981b7ca4,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,28,16,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,cd71772e-ef5a-4870-8fa2-f26523b1cd53,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,86,12,System.IO.File,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,13a23dca-995f-42b3-a490-bb98af89386a,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,50,37,System.IO.Directory,potential,3,
+eShopLegacyMVC.Test\eShopLegacyMVC.Test.csproj,Local.0003,Local or network IO operations detected,89652b55-4892-4e30-ade7-b6f13ab811ae,eShopLegacyMVC.Test\Services\FileServiceTest.cs,File,48,16,System.IO.Directory,potential,3,
+.,Dockerfile.0101,Dockerfile Missing,78567a0e-273e-4633-a579-fe7aa81601e2,.,file,,,,optional,5,

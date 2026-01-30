@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AppModToCsv.Console/AppModToCsv.Console.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/AppModToCsv.Console.Tests/AppModToCsv.Console.Tests.csproj" />
+  </Folder>
+</Solution>
