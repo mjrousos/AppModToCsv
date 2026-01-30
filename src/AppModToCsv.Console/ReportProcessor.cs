@@ -22,14 +22,14 @@ static class ReportProcessor
         "Project",
         "RuleId",
         "RuleTitle",
-        "IncidentId",
+        "Severity",
+        "Effort",
         "Location",
         "LocationKind",
         "Line",
         "Column",
         "Snippet",
-        "Severity",
-        "Effort",
+        "IncidentId",
         "Labels"
     ];
 
@@ -220,7 +220,9 @@ static class ReportProcessor
                 csvLineBuilder.Append(',');
                 csvLineBuilder.Append(EscapeCsvField(ruleTitle));
                 csvLineBuilder.Append(',');
-                csvLineBuilder.Append(EscapeCsvField(incidentId));
+                csvLineBuilder.Append(EscapeCsvField(severity));
+                csvLineBuilder.Append(',');
+                csvLineBuilder.Append(EscapeCsvField(effort));
                 csvLineBuilder.Append(',');
                 csvLineBuilder.Append(EscapeCsvField(location));
                 csvLineBuilder.Append(',');
@@ -232,9 +234,7 @@ static class ReportProcessor
                 csvLineBuilder.Append(',');
                 csvLineBuilder.Append(EscapeCsvField(snippet));
                 csvLineBuilder.Append(',');
-                csvLineBuilder.Append(EscapeCsvField(severity));
-                csvLineBuilder.Append(',');
-                csvLineBuilder.Append(EscapeCsvField(effort));
+                csvLineBuilder.Append(EscapeCsvField(incidentId));
                 csvLineBuilder.Append(',');
                 csvLineBuilder.Append(EscapeCsvField(labels));
 

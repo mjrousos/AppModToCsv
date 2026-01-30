@@ -1,76 +1,7 @@
 ﻿Project,RuleId,RuleTitle,IncidentId,Location,LocationKind,Line,Column,Snippet,Severity,Effort,Labels
 eShopLegacy.Common\eShopLegacy.Common.csproj,Runtime.0002,Upgrade to newer target framework to get better cloud experience,2a9947cb-782e-457e-a06e-fffad381b6b1,eShopLegacy.Common\eShopLegacy.Common.csproj,File,,,"Target framework: .NETFramework,Version=v4.6.1",optional,3,
 eShopLegacy.Utilities\eShopLegacy.Utilities.csproj,Runtime.0002,Upgrade to newer target framework to get better cloud experience,6a50b951-b7f3-4b0f-8a44-24b80d657a7c,eShopLegacy.Utilities\eShopLegacy.Utilities.csproj,File,,,"Target framework: .NETFramework,Version=v4.6.1",optional,3,
-eShopLegacyMVC\eShopLegacyMVC.csproj,Scale.0001,Static content detected,cfce78ca-39bd-4377-ad29-607e4c6bfb2b,eShopLegacyMVC\eShopLegacyMVC.csproj,File,,,"Found 67 files matching the rule:
-
-Content\base.css
-Content\bootstrap-grid.css
-Content\bootstrap-grid.min.css
-Content\bootstrap-reboot.css
-Content\bootstrap-reboot.min.css
-Content\bootstrap.css
-Content\bootstrap.min.css
-Content\custom.css
-Content\site.css
-favicon.ico
-fonts\Montserrat-Bold.eot
-fonts\Montserrat-Bold.svg
-fonts\Montserrat-Bold.ttf
-fonts\Montserrat-Bold.woff
-fonts\Montserrat-Bold.woff2
-fonts\Montserrat-Regular.eot
-fonts\Montserrat-Regular.svg
-fonts\Montserrat-Regular.ttf
-fonts\Montserrat-Regular.woff
-fonts\Montserrat-Regular.woff2
-Images\brand_dark.png
-Images\brand.png
-Images\main_banner.png
-Images\main_footer_text.png
-Pics\1.png
-Pics\10.png
-Pics\11.png
-Pics\12.png
-Pics\2.png
-Pics\3.png
-Pics\4.png
-Pics\5.png
-Pics\6.png
-Pics\7.png
-Pics\8.png
-Pics\9.png
-Pics\dummy.png
-Scripts\bootstrap.bundle.js
-Scripts\bootstrap.bundle.min.js
-Scripts\bootstrap.js
-Scripts\bootstrap.min.js
-Scripts\esm\popper-utils.js
-Scripts\esm\popper-utils.min.js
-Scripts\esm\popper.js
-Scripts\esm\popper.min.js
-Scripts\jquery-3.3.1.js
-Scripts\jquery-3.3.1.min.js
-Scripts\jquery-3.3.1.slim.js
-Scripts\jquery-3.3.1.slim.min.js
-Scripts\jquery.validate.js
-Scripts\jquery.validate.min.js
-Scripts\jquery.validate.unobtrusive.js
-Scripts\jquery.validate.unobtrusive.min.js
-Scripts\modernizr-2.6.2.js
-Scripts\modernizr-2.8.3.js
-Scripts\popper-utils.js
-Scripts\popper-utils.min.js
-Scripts\popper.js
-Scripts\popper.min.js
-Scripts\respond.js
-Scripts\respond.matchmedia.addListener.js
-Scripts\respond.matchmedia.addListener.min.js
-Scripts\respond.min.js
-Scripts\umd\popper-utils.js
-Scripts\umd\popper-utils.min.js
-Scripts\umd\popper.js
-Scripts\umd\popper.min.js
-",optional,3,
+eShopLegacyMVC\eShopLegacyMVC.csproj,Scale.0001,Static content detected,cfce78ca-39bd-4377-ad29-607e4c6bfb2b,eShopLegacyMVC\eShopLegacyMVC.csproj,File,,,Found 67 files matching the rule:  Content\base.css Content\bootstrap-grid.css Content\bootstrap-grid.min.css Content\bootstrap-reboot.css Content\bootstrap-reboot.min.css Content\bootstrap.css Content\bootstrap.min.css Content\custom.css Content\site.css favicon.ico fonts\Montserrat-Bold.eot fonts\Montserrat-Bold.svg fonts\Montserrat-Bold.ttf fonts\Montserrat-Bold.woff fonts\Montserrat-Bold.woff2 fonts\Montserrat-Regular.eot fonts\Montserrat-Regular.svg fonts\Montserrat-Regular.ttf fonts\Montserrat-Regular.woff fonts\Montserrat-Regular.woff2 Images\brand_dark.png Images\brand.png Images\main_banner.png Images\main_footer_text.png Pics\1.png Pics\10.png Pics\11.png Pics\12.png Pics\2.png Pics\3.png Pics\4.png Pics\5.png Pics\6.png Pics\7.png Pics\8.png Pics\9.png Pics\dummy.png Scripts\bootstrap.bundle.js Scripts\bootstrap.bundle.min.js Scripts\bootstrap.js Scripts\bootstrap.min.js Scripts\esm\popper-utils.js Scripts\esm\popper-utils.min.js Scripts\esm\popper.js Scripts\esm\popper.min.js Scripts\jquery-3.3.1.js Scripts\jquery-3.3.1.min.js Scripts\jquery-3.3.1.slim.js Scripts\jquery-3.3.1.slim.min.js Scripts\jquery.validate.js Scripts\jquery.validate.min.js Scripts\jquery.validate.unobtrusive.js Scripts\jquery.validate.unobtrusive.min.js Scripts\modernizr-2.6.2.js Scripts\modernizr-2.8.3.js Scripts\popper-utils.js Scripts\popper-utils.min.js Scripts\popper.js Scripts\popper.min.js Scripts\respond.js Scripts\respond.matchmedia.addListener.js Scripts\respond.matchmedia.addListener.min.js Scripts\respond.min.js Scripts\umd\popper-utils.js Scripts\umd\popper-utils.min.js Scripts\umd\popper.js Scripts\umd\popper.min.js ,optional,3,
 eShopLegacyMVC\eShopLegacyMVC.csproj,Local.0007,Local OS environment access detected,f1bd484e-3fb7-4aae-98f8-2a7684683016,eShopLegacyMVC\Global.asax.cs,File,42,57,System.Environment.MachineName,potential,1,
 eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,58efc375-d1fa-474e-988b-2ed0f8865019,eShopLegacyMVC\Global.asax.cs,File,22,32,log4net.ILog,optional,3,
 eShopLegacyMVC\eShopLegacyMVC.csproj,Logging.0103,Log4Net logging framework detected,e2e65863-f981-49a3-807b-4347caa4afd7,eShopLegacyMVC\Global.asax.cs,File,49,12,log4net.LogicalThreadContext,optional,3,

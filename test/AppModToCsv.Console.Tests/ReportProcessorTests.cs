@@ -338,7 +338,7 @@ public class ReportProcessorTests : IDisposable
         // Assert
         var lines = await File.ReadAllLinesAsync(outputPath);
         Assert.NotEmpty(lines);
-        Assert.Equal("Project,RuleId,RuleTitle,IncidentId,Location,LocationKind,Line,Column,Snippet,Severity,Effort,Labels", lines[0]);
+        Assert.Equal("Project,RuleId,RuleTitle,Severity,Effort,Location,LocationKind,Line,Column,Snippet,IncidentId,Labels", lines[0]);
     }
 
     [Fact]

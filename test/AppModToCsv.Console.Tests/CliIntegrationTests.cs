@@ -473,7 +473,7 @@ public class CliIntegrationTests : IDisposable
         var lines = csvContent.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
         
         // Verify header
-        Assert.Equal("Project,RuleId,RuleTitle,IncidentId,Location,LocationKind,Line,Column,Snippet,Severity,Effort,Labels", lines[0]);
+        Assert.Equal("Project,RuleId,RuleTitle,Severity,Effort,Location,LocationKind,Line,Column,Snippet,IncidentId,Labels", lines[0]);
         
         // Verify incident data
         Assert.Contains("TestProject", lines[1]);
