@@ -693,8 +693,8 @@ public class ReportProcessorTests : IDisposable
 
         // Assert
         var content = await File.ReadAllTextAsync(outputPath);
-        // The snippet with newlines should be wrapped in quotes
-        Assert.Contains("\"line1\nline2\nline3\"", content);
+        // Newlines are replaced with spaces to keep content in a single cell
+        Assert.Contains("line1 line2 line3", content);
     }
 
     #endregion

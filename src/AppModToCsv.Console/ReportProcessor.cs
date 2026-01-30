@@ -1,4 +1,3 @@
-using System.Buffers;
 using System.Text;
 using System.Text.Json;
 
@@ -33,9 +32,6 @@ static class ReportProcessor
         "Effort",
         "Labels"
     ];
-
-    // Characters that require CSV field escaping (using SearchValues for performance)
-    private static readonly SearchValues<char> CsvEscapeChars = SearchValues.Create([',', '"', '\n', '\r']);
 
     public static async Task<int> ProcessReportAsync(FileInfo? inputFile, string? target, FileInfo? outputFile, bool listTargets, bool excelCompatible)
     {
@@ -257,12 +253,15 @@ static class ReportProcessor
             return "";
         }
 
-        // Use SearchValues for high-performance character matching
-        if (field.AsSpan().ContainsAny(CsvEscapeChars))
+        // Replace newlines with spaces to keep content in a single cell
+        var sanitized = field.Replace("\r\n", " ").Replace("\n", " ").Replace("\r", " ");
+
+        // If field contains comma or quote, wrap in quotes and escape quotes
+        if (sanitized.Contains(',') || sanitized.Contains('"'))
         {
-            return $"\"{field.Replace("\"", "\"\"")}\"";
+            return $"\"{sanitized.Replace("\"", "\"\"")}\"";
         }
 
-        return field;
+        return sanitized;
     }
 }
